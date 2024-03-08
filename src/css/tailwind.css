@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all .5s;
+}
+main{
+    max-width: 1200px;
+    margin: 100px auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px ;
+    padding-left: 210px;
+    padding-right: 210px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+header ul li {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header h1{
+    font-size: 32px;
+}
+header img {
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.output{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.output-child{
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 4px 4px 10px gray;
+    padding: 10px;
+    border-radius: 20px;
+}
+.output-child-text{
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    gap: 10px;
+}
+.output-child-img{
+    display: flex ;
+    align-items: center;
+    gap: 20px;
+}
+.output-child-img img{
+    width: 100px;
+}
+.priceFinal{
+    color: rgba(238, 34, 214, 0.933);
+    font-size: 14px;
+}
+.title{
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.description{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+.btn{
+    background-color: blueviolet;
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+}
